@@ -1,0 +1,22 @@
+:root{
+    --primary-color:orange;
+}
+
+.primary-color{
+    color:var(--primary-color);
+  
+}
+.border-primary {
+    border-color: var(--primary-color) !important;
+  }
+  .btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }.text-primary {
+    color: var(--primary-color) !important;
+  }
